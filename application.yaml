@@ -9,7 +9,7 @@ spec:
   source:
     repoURL: https://github.com/SadPenguin1/argocd.git
     targetRevision: HEAD
-    path: dev/microservices-demo-main/release
+    path: dev/microservices-demo-main/release/kubernetes-manifests.yaml
   destination:
     server : https://kubernetes.default.svc
     namespace : nmdung
